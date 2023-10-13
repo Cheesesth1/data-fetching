@@ -5,13 +5,12 @@ interface IAddress {
   zipcode: number;
 }
 
-interface IUserData {
+export interface IUserData {
   id: number;
   name: string;
   email: string;
   address: IAddress;
-  contact: number;
+  phone: number;
   website: string;
 }
 
-export default IUserData;

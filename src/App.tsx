@@ -1,6 +1,9 @@
-import UserList from "./UserList";
+import UserList from "./Pages/UserList";
+
 function App() {
-  return <>UserList</>;
+  return (
+    <UserList/>
+  )
 }
 
 export default App;
